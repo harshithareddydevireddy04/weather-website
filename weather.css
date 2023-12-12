@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/clouds-background-pastel-colors_1017-38296.jpg?w=996&t=st=1701175715~exp=1701176315~hmac=9878b8c4e0891ca1dacba81980714045d88f4b6e5dd73d50cd5e593e1ef435a4");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+
+}
+
+.weather-container {
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 34px;
+    border-top: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+#cityInput{
+    border:2px solid #fff;
+    border-radius: 6px;
+    padding: .6rem;
+    background: transparent;
+}
+#cityInput:focus{
+    background-color: pink;
+}
+button{
+    border:2px solid #fff;
+    border-radius: 6px;
+    padding: .6rem;
+    background: transparent;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;;
+}
+::placeholder{
+    color: #000 ;
+}
